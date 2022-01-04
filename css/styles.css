@@ -151,10 +151,10 @@ h1 {
   .image-desktop {
     display: block;
     position: absolute;
-    top: 25%;
+    top: 10%;
     right: 100%;
     z-index: 2;
-    transform: translate(-20%, 12%);
+    transform: translate(-20%, 10%);
   }
 
   .bckg-desktop {
@@ -162,13 +162,17 @@ h1 {
     position: absolute;
     max-width: 450px;
     z-index: 1;
-    top: 25%;
+    top: 10%;
     right: 100%;
     transform: translateX(-20%);
   }
 
   .faq-container {
     max-width: calc(70% - 5em);
+  }
+
+  h1 {
+    margin: 0;
   }
 }
 
